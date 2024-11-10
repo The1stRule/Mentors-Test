@@ -1,0 +1,160 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+/* header */
+
+header {
+    width: 100%;
+    background-color: white;
+    padding: 10px 0px;
+    border-bottom: 2px solid #f9f9f9;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 375px;
+}
+
+header img {
+    width: 70px;
+    cursor: pointer;
+}
+
+.nav-div {
+    display: flex;
+    gap: 25px;
+}
+
+.nav-div a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: #374151;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.nav-div a:hover {
+    color: #a855f7;
+}
+
+.header-bt {
+    text-decoration: none;
+    padding: 10px 17px;
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    background-color: #a855f7;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.header-bt:hover {
+    background-color: #8d41d5;
+}
+
+.lorem {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(55, 65, 81);
+}
+
+.grid-p {
+    font-size: 19px;
+    font-weight: 700;
+    color: #a855f7;
+}
+
+/* main-section */
+
+section {
+    width: 100%;
+    padding-left: 165px;
+}
+
+#main-section {
+    background-color: #f0e3ff;
+    padding-top: 270px;
+    padding-bottom: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#main-section .main-text {
+    width: 728px;
+}
+
+#main-section .lorem {
+    width: 750px;
+    font-size: 14px;
+}
+
+.section-bt {
+    text-decoration: none;
+    padding: 11px 17px;
+    font-size: 13px;
+    color: white;
+    background-color: #a855f7;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.section-bt:hover {
+    background-color: #8d41d5;
+}
+
+/*  */
+
+footer {
+    padding-top: 85px;
+    height: 340px;
+    background-color: #faf5ff;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.footer-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-div img {
+    width: 70px;
+}
+
+.footer-div .lorem {
+    width: 380px;
+}
+
+footer .nav-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contact-info p {
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(55, 65, 81);
+}
+
+span {
+    color: black;
+    font-weight: 700;
+}
