@@ -1,10 +1,10 @@
 
-const form = document.getElementById('myForm');
+const form = document.getElementById('form-signin');
 const users = JSON.parse(localStorage.getItem('users'));
 
 const formSubmit = () => {
     const email = form.email.value;
-    const password = form.pass.value;
+    const password = form.password.value;
 
     if(email === '' || password === '') {
         alert('Please fill out all filds');
@@ -22,8 +22,8 @@ const formSubmit = () => {
 }
 
 const signIn = (email, password) => {
-    for(const user of users) {
-        if(user.email == email && user.password === password) {
+    for(const user of users.slice(1)) {
+        if(user.email === email && user.password === password) {
             return true;
         }
     }

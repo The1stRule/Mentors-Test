@@ -13,7 +13,7 @@ function User(fullname, email, password) {
 const formSubmit = () => {
     const fullname = form.fullname.value;
     const email = form.email.value;
-    const password = form.pass.value;
+    const password = form.password.value;
     const confpass = form.confpass.value;
 
     const formInfo = [fullname, email, password, confpass];
