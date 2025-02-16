@@ -1,0 +1,16 @@
+    A - list of nums
+    n - list(A) length
+    k - Item to find
+    function findNumber {
+            i = 0
+    Loop    if(A[i] = k) {
+                return A[i]
+            }
+
+            if(i = n - 1) {
+                return false
+            }
+            
+            i = i + 1
+            goto Loop
+    }
