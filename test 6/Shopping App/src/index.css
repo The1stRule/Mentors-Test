@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@layer components {
+  .form-section {
+    @apply flex justify-center items-center gap-2 h-screen;
+  }
+
+  .input-styles {
+    @apply border rounded-[5px] pl-[10px] py-0.5 text-[15px];
+  }
+
+  .input-div {
+    @apply flex flex-col gap-0.5;
+  }
+}

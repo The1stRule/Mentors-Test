@@ -5,6 +5,7 @@ const Task = ({ taskInfo, num }) => {
     const { deleteTask, handleCheckbox, editTask } = useContext(AuthContext);
     const [newTask, setNewTasl] = useState(taskInfo.task);
     const [isEdit, setIsEdit] = useState(false);
+    const d = new Date(taskInfo.id);
 
     const handleEdit = () => {
         setIsEdit(false);
@@ -27,6 +28,7 @@ const Task = ({ taskInfo, num }) => {
             <button onClick={() => setIsEdit(true)}>Edit</button>}</td>
 
             <td><button onClick={() => deleteTask(taskInfo.id)}>Delete</button></td>
+            <td>{`${d.getHours()}:${d.getMinutes()} ${d.getFullYear()}/${d.getMonth()}/${d.getDate()}`}</td>
         </tr>
     );
 }

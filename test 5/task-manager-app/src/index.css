@@ -82,7 +82,7 @@ form a:hover {
 }
 
 .error-message {
-    height: 15px;
+    height: 17px;
     color: red;
 }
 
@@ -136,4 +136,11 @@ td button {
 #delbtn {
     width: 200px;
     height: 30px;
+}
+
+td input {
+    width: 100%;
+    padding: 2px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
 }

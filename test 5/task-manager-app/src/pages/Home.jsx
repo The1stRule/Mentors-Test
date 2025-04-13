@@ -20,6 +20,7 @@ const Home = () => {
                         <th>Task</th>
                         <th>Edit</th>
                         <th>Del</th>
+                        <th>Date</th>
                     </tr>
                 </thead>
                 <tbody>
