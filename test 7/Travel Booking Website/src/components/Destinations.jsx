@@ -6,6 +6,7 @@ const Destination = () => {
     const { destinations, setDetails } = useContext(AuthContext);
     const [userInput, setUserInput] = useState(0);
     const navigate = useNavigate();
+    
     const handleChange = ({ target }) => {
         if (target.value.length === 0) {
             setUserInput(0)

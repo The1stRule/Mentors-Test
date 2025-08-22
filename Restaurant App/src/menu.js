@@ -1,0 +1,122 @@
+export const menuItems = [
+  {
+    id: 1,
+    name: "Margherita Pizza",
+    price: 8.99,
+    image: "https://www.tasteofhome.com/wp-content/uploads/2024/03/Margherita-Pizza-_EXPS_TOHVP24_275515_MF_02_28_1.jpg",
+  },
+  {
+    id: 2,
+    name: "Pepperoni Pizza",
+    price: 10.99,
+    image: "https://atsloanestable.com/wp-content/uploads/2023/06/new-york-style-pizza2.jpg",
+  },
+  {
+    id: 3,
+    name: "BBQ Chicken Pizza",
+    price: 11.49,
+    image: "https://www.allrecipes.com/thmb/qZ7LKGV1_RYDCgYGSgfMn40nmks=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-24878-bbq-chicken-pizza-beauty-4x3-39cd80585ad04941914dca4bd82eae3d.jpg",
+  },
+  {
+    id: 4,
+    name: "Cheeseburger",
+    price: 7.49,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKvFARU8D1wj50zlIapnXJV6kO1XhRx2bcmg&s",
+  },
+  {
+    id: 5,
+    name: "Chicken Burger",
+    price: 7.99,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbsTircXEKD0-vBNgfYzMNpRiyxuwV9FW1IQ&s",
+  },
+  {
+    id: 6,
+    name: "Veggie Burger",
+    price: 6.99,
+    image: "https://www.inspiredtaste.net/wp-content/uploads/2018/05/Homemade-Mushroom-Veggie-Burger-Recipe-1200.jpg",
+  },
+  {
+    id: 7,
+    name: "Caesar Salad",
+    price: 6.49,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRV5Yp0uPt-uqJ5udVjAL71-ArAIvCzE84nYQ&s",
+  },
+  {
+    id: 8,
+    name: "Greek Salad",
+    price: 6.99,
+    image: "https://www.simplyrecipes.com/thmb/0NrKQlJ691l6L9tZXpL06uOuWis=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Easy-Greek-Salad-LEAD-2-4601eff771fd4de38f9722e8cafc897a.jpg",
+  },
+  {
+    id: 9,
+    name: "Cobb Salad",
+    price: 7.49,
+    image: "https://www.allrecipes.com/thmb/lUCXnzWTl9WOQ9NRAT08hA4O2lE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/14415-cobb-salad-DDMFS-4x3-608ba9c5768b49079eb75fe9a9898307.jpg",
+  },
+  {
+    id: 10,
+    name: "Spaghetti Carbonara",
+    price: 9.99,
+    image: "https://www.allrecipes.com/thmb/a_0W8yk_LLCtH-VPqg2uLD9I5Pk=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/11973-spaghetti-carbonara-ii-DDMFS-4x3-6edea51e421e4457ac0c3269f3be5157.jpg",
+  },
+  {
+    id: 11,
+    name: "Lasagna",
+    price: 11.49,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxPN13bmYQnkp0gXcLz3Cbobu9fA6DyzADgA&s",
+  },
+  {
+    id: 12,
+    name: "Fettuccine Alfredo",
+    price: 10.49,
+    image: "https://www.allrecipes.com/thmb/6iFrYmTh80DMqrMAOYTYKfBawvY=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/AR-23431-to-die-for-fettuccine-alfredo-DDMFS-beauty-3x4-b64d36c7ff314cb39774e261c5b18352.jpg",
+  },
+  {
+    id: 13,
+    name: "Grilled Salmon",
+    price: 14.99,
+    image: "https://www.allrecipes.com/thmb/CfocX_0yH5_hFxtbFkzoWXrlycs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ALR-12720-grilled-salmon-i-VAT-4x3-888cac0fb8a34f6fbde7bf836850cd1c.jpg",
+  },
+  {
+    id: 14,
+    name: "Fried Shrimp",
+    price: 12.49,
+    image: "https://www.allrecipes.com/thmb/dI7tAF6NGd0Ymo8_fUAAwqnZT1Y=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/AR-216969-crunchy-fried-shrimp-DDMFS-4x3-ce19238c015447f1be90f8871409844f.jpg",
+  },
+  {
+    id: 15,
+    name: "Chocolate Cake",
+    price: 4.99,
+    image: "https://www.allrecipes.com/thmb/zb8muWE6CQ5XjclY_LQ2i-QwxN0=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/17981-one-bowl-chocolate-cake-iii-DDMFS-beauty-4x3-d2e182087e4b42a3a281a0a355ea60d1.jpg",
+  },
+  {
+    id: 16,
+    name: "Cheesecake",
+    price: 5.49,
+    image: "https://www.allrecipes.com/thmb/jBAjBzZCHM8ISEy4ZZvg3zTWYz8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/276069homemade-cheesecakeKim4x3-eb1f8032a2e54eff99bc1ad0f9d3a8d4.jpg",
+  },
+  {
+    id: 17,
+    name: "Ice Cream Sundae",
+    price: 3.99,
+    image: "https://www.keep-calm-and-eat-ice-cream.com/wp-content/uploads/2022/08/Ice-cream-sundae-hero-11.jpg",
+  },
+  {
+    id: 18,
+    name: "Pancakes",
+    price: 5.99,
+    image: "https://www.inspiredtaste.net/wp-content/uploads/2025/07/Pancake-Recipe-1.jpg",
+  },
+  {
+    id: 19,
+    name: "Omelette",
+    price: 4.49,
+    image: "https://joyfoodsunshine.com/wp-content/uploads/2022/07/best-omelette-recipe-1-500x500.jpg",
+  },
+  {
+    id: 20,
+    name: "Fresh Orange Juice",
+    price: 2.99,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUQmey4AWHxuusqFrVXrf9NKhfLONcGWlOMQ&s",
+  }
+];
